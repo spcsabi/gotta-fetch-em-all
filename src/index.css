@@ -1,0 +1,40 @@
+:root {
+  font-family: "Press Start 2P", "DotGothic16", Inter, system-ui, Avenir,
+    Helvetica, Arial, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .warning-message {
+    @apply flex bg-red-800 text-slate-200 rounded-lg justify-center items-center;
+  }
+
+  .load-info {
+    @apply flex  bg-slate-50/75 rounded-lg text-black justify-center items-center;
+  }
+
+  .poke-details-header {
+    @apply bg-blue-100 rounded-lg text-wrap text-center mx-4 my-3 p-2;
+  }
+
+  .full-width-1024px {
+    @apply relative w-full max-w-screen-lg mx-auto;
+  }
+
+  .overlay-components {
+    @apply absolute inset-0 flex items-center justify-center;
+  }
+
+  .custom-pointer {
+    cursor: url("./assets/mousePointer/icon-empty.png");
+  }
+}
