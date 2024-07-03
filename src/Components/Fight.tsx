@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
-import { gifUrl } from "../Data/backgrounds";
-import { getRandNumber, usePokemon } from "../Data/utils";
+import { gifUrl } from "../data/backgrounds";
+import { getRandNumber, usePokemon } from "../data/utils";
 import PokemonMain from "./PokemonMain";
 import Battle from "./Battle";
 

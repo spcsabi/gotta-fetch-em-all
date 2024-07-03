@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { PokeLocation } from "../Types/types";
 import { useState } from "react";
-import { coordinates, mapPins } from "../Data/coordinates";
+import { coordinates, mapPins } from "../data/coordinates";
 
 async function fetchLocation(n: number): Promise<PokeLocation> {
   const URL = "https://pokeapi.co/api/v2/location/";

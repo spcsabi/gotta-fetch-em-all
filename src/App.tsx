@@ -2,7 +2,7 @@ import Map from "./Components/Map";
 import Fight from "./Components/Fight";
 import { useEffect, useState } from "react";
 import Pocket from "./Components/Pocket";
-import { gifColor, gifColorBottom } from "./Data/backgrounds";
+import { gifColor, gifColorBottom } from "./data/backgrounds";
 import pngUrl from "./assets/PokemonSign.png";
 
 export default function App() {

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { getRandNumber } from "../Data/utils";
+import { getRandNumber } from "../data/utils";
 import { PokemonDetailsRefactored } from "../Types/types";
 
 export default function Battle({

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { usePokemon } from "../Data/utils";
+import { usePokemon } from "../data/utils";
 
 export default function PokemonPocket({
   id,
